@@ -13,7 +13,6 @@
 
     <!-- CSS File -->
     <link href="./src/style.css" rel="stylesheet">
-
     <!-- JS Files -->
 
 </head>
@@ -22,9 +21,10 @@
     <header class="text-gray-300 body-font container mx-auto flex flex-row p-5 mb-6 justify-between items-center">
 
         <h1>
-            <a class="flex title-font font-medium items-center text-gray-400 mb-4 md:mb-0">
+            <a class="flex title-font font-medium items-center text-gray-400 mb-4 md:mb-0"
+            href=".">
                 <span><i class="fa fa-worm text-3xl text-gray-200"></i></span>
-                <span class="ml-3 text-xl inline-block font-serif">Quick Duck</span>
+                <span class="ml-3 text-xl inline-block font-serif">Quick Site</span>
             </a>
         </h1>
 
@@ -34,8 +34,9 @@
             flex flex-wrap items-center text-base justify-left grow">
             <a class="mr-5 py-2
               hover:text-gray-100
-              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
-                First Link
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200"
+            href="about.php">
+                About
             </a>
             <a class="mr-5 py-2
               hover:text-gray-100
@@ -213,12 +214,12 @@
                 Terms & Conditions
             </h5>
 
-            <a class="my-1 block" href="/#">
+            <a class="my-1 block" href="/public#">
                 Privacy Policy
                 <span class="text-sky-600 text-xs p-1">TBA</span>
             </a>
 
-            <a class="my-1 block" href="/#">
+            <a class="my-1 block" href="/public#">
                 Terms & Conditions
                 <span class="text-sky-600 text-xs p-1">TBA</span>
             </a>

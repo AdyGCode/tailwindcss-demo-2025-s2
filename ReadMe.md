@@ -21,8 +21,12 @@ cd tailwindcss-demo-2025-s2
 npm install
 ```
 
-> **IMPORTANT** You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM 
+> **IMPORTANT** 
+> 
+You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM 
 > packages.
+> 
+> Also, the repository is also configured to render PHP files.
 
 ## Run the Development Server
 
@@ -50,7 +54,7 @@ Open a browser and go to: http://localhost:5173/
 
 We have been using the following libraries to help with this demo:
 
-- Components are from [HyperUI -https://www.hyperui.dev/](https://www.hyperui.dev/).
+- Components are from [HyperUI - https://www.hyperui.dev/](https://www.hyperui.dev/).
 - Icons are from [FontAwesome (Free) - https://fontawesome.com](https://fontawesome.com)
 
 There are MANY possible options for UI components and Icons.
@@ -73,4 +77,6 @@ https://dev.to/masumparvej/7-free-font-awesome-alternatives-in-2025-138e
 
 https://octet.design/journal/free-icon-sets/
 
+https://vite-php.nititech.de/get-started
 
+https://github.com/donnikitos/vite-plugin-php
