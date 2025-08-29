@@ -7,10 +7,13 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
 
 /*!* Scan the following locations for the given file extensions *!*/
-@source "/*.php";
-@source "/public/**/*.php";
-@source "/public/**/*.html";
+@source "../*.php";
+@source "../public/**/*.php";
+@source "../public/**/*.html";
 
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
 @theme {
 
     --font-serif: 'Corben', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;

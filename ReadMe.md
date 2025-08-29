@@ -18,37 +18,73 @@ Open a command line and run:
 ```shell
 git clone https://github.com/AdyGCode/tailwindcss-demo-2025-s2
 cd tailwindcss-demo-2025-s2 
-npm install
 ```
 
 > **IMPORTANT**
-> You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM
+> 
+> You will need Node.js version 22.18+ or 24.4+ to run vite and other NPM
 > packages.
 >
 > Also, the repository is also configured to render PHP files.
 
 ## Run the Development Server
 
-We are using VITE to run a development server.
+We are using Composer, VITE and TailwindCSS' CLI to run a development server.
+
+
+### Vite
 
 Vite is like "make" on Linux and for other systems, and acts as a build application that
 performs actions automatically.
 
-Vite provides:
+Vite's configuration provides:
 
 - dev - used to automatically watch and compile CSS/JS when developing
 - build - used to create production copies of the CSS/JS
 
+### Composer
+
+Composer is the equivalent to NPM for Node.js. It is a package manager for PHP.
+
+We are using it to run multiple commands at once so we do not have to run multiple terminal instances. 
+
+Composer provides:
+
+
+### Install Dependencies
+
+Before run the development server, we need to:
+
+- Install any Composer package requirements
+- Install any Node.js package requirements
+- 
+Execute the following commands:
+
+```shell
+npm install -g @tailwindcss/language-server
+```
+This installs a helper for PhpStorm and WebStorm.
+
+```shell
+npm install
+composer install
+```
+
+These will install the packages required by composer and node.
+
+
+### Running the Development Server
+
 In the same shell execute:
 
 ```shell
-npm run dev
+composer run dev
 ```
 
-Open a browser and go to: http://localhost:5173/
+Open a browser and go to: http://localhost:8000/
 
 - Localhost is the local computer/host (the one in front of you)
-- 5173 is the port that Vite is listening on for requests
+- 8000 is the port that Vite is listening on for requests
 
 # Components & Icons
 

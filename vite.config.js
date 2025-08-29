@@ -10,12 +10,8 @@ export default defineConfig({
 //        usePHP(),
         laravel({
             // ...
-            input: '/src/css/style.css',
-
-            refresh: {
-                paths: ['public/**'],
-                config: { delay: 50 }
-            },
+            input: './src/css/style.css',
+            refresh: true,
         }),
     ],
 })

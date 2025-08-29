@@ -26,7 +26,7 @@
   "scripts": {
     "dev": [
       "Composer\\Config::disableProcessTimeout",
-      "npx concurrently --ansi -c \"#93c5fd,#c4b5fd,#99c423\" \"php -S localhost:8000 -t public\" \"npm run dev\"  \"npx @tailwindcss/cli --input /src/css/style.css --output /public/assets/css/site.css --watch \" --names='server,vite,tailwindcss'"
+      "npx concurrently --ansi -c \"#93c5fd,#c4b5fd,#99c423\" \"php -S localhost:8000 -t public\" \"npm run dev\"  \"npx @tailwindcss/cli --input ./src/css/style.css --output ./public/assets/css/site.css --watch \" --names='server,vite,tailwindcss'"
     ]
   },
   "require": {
