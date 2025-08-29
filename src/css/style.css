@@ -3,10 +3,10 @@
  */
 
 /* Import TailwindCSS and FontAwesome */
-@import "tailwindcss";
+@import 'tailwindcss';
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-/* Scan the following locations for the given file extensions */
+/*!* Scan the following locations for the given file extensions *!*/
 @source "/*.php";
 @source "/public/**/*.php";
 @source "/public/**/*.html";

@@ -21,23 +21,23 @@ cd tailwindcss-demo-2025-s2
 npm install
 ```
 
-> **IMPORTANT** 
-> 
-You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM 
+> **IMPORTANT**
+> You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM
 > packages.
-> 
+>
 > Also, the repository is also configured to render PHP files.
 
 ## Run the Development Server
 
 We are using VITE to run a development server.
 
-Vite is like "make" on Linux and for other systems, and acts as a build application that 
+Vite is like "make" on Linux and for other systems, and acts as a build application that
 performs actions automatically.
 
 Vite provides:
-- dev - used to automatically watch and compile CSS/JS when developing 
-- build - used to create production copies of the CSS/JS 
+
+- dev - used to automatically watch and compile CSS/JS when developing
+- build - used to create production copies of the CSS/JS
 
 In the same shell execute:
 
@@ -67,9 +67,6 @@ the user, and not the authors.
 
 > In your About page, please provide a link back to the source of ANY components, icons etc.
 > you use in your designs.
-
-
-
 
 # Resources
 

@@ -12,7 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=corben:400,700" rel="stylesheet"/>
 
     <!-- CSS File -->
-    <link href="/src/style.css" rel="stylesheet">
+    <link href="./assets/css/site.css" rel="stylesheet">
     <!-- JS Files -->
 
 </head>
@@ -30,28 +30,28 @@
 
 
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4
-            text-slate-500
+            text-zinc-500
             flex flex-wrap items-center text-base justify-left grow">
             <a class="mr-5 py-2
-              hover:text-slate-100
-              border-0 border-b-2 border-b-slate-500 hover:border-slate-200"
-            href="about.php">
+              hover:text-zinc-100
+              border-0 border-b-2 border-b-zinc-500 hover:border-zinc-200"
+               href="about.php">
                 About
             </a>
             <a class="mr-5 py-2
-              hover:text-slate-100
-              border-0 border-b-2 border-b-slate-500 hover:border-slate-200"
-               href="about.php">
+              hover:text-zinc-100
+              border-0 border-b-2 border-b-zinc-500 hover:border-zinc-200"
+               href="contact.php">
                 Contact Us
             </a>
             <a class="mr-5 py-2
-              hover:text-slate-100
-              border-0 border-b-2 border-b-slate-500 hover:border-slate-200">
+              hover:text-zinc-100
+              border-0 border-b-2 border-b-zinc-500 hover:border-zinc-200">
                 Third Link
             </a>
             <a class="mr-5 py-2
-              hover:text-slate-100
-              border-0 border-b-2 border-b-slate-500 hover:border-b-slate-200">
+              hover:text-zinc-100
+              border-0 border-b-2 border-b-zinc-500 hover:border-b-zinc-200">
                 Fourth Link
             </a>
         </nav>
@@ -83,21 +83,21 @@
         <header class="-mx-6
                      bg-slate-700 text-slate-200
                        py-6 px-4 sm:px-6 lg:px-8">
-            <h2 class="font-bold text-2xl leading-tight font-serif">
+            <h2 class="font-thin text-2xl leading-tight font-serif">
                 About
             </h2>
         </header>
 
         <section class="overflow-hidden bg-slate-50 sm:grid sm:grid-cols-2 dark:bg-slate-900">
             <header class="p-8 lg:px-16 col-span-2">
-            <h2 class="text-2xl font-bold text-slate-900 md:text-3xl dark:text-white">
+            <h2 class="text-2xl font-thin text-slate-900 md:text-3xl dark:text-white">
                 Developers
             </h2>
             </header>
 
             <div class="p-8  lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-slate-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-slate-900 md:text-3xl dark:text-white">
                         Developer 1
                     </h3>
 
@@ -110,7 +110,7 @@
 
             <div class="p-8  lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-slate-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-slate-900 md:text-3xl dark:text-white">
                         Developer 2
                     </h3>
 
@@ -127,14 +127,14 @@
 
         <section class="overflow-hidden bg-slate-50 sm:grid sm:grid-cols-2 dark:bg-slate-900">
             <header class="p-8 lg:px-16 col-span-2">
-                <h2 class="text-2xl font-bold text-slate-900 md:text-3xl dark:text-white">
+                <h2 class="text-2xl font-thin text-slate-900 md:text-3xl dark:text-white">
                     The Project
                 </h2>
             </header>
 
             <div class="p-8 lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-slate-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-slate-900 md:text-3xl dark:text-white">
                         Summary
                     </h3>
 
@@ -146,7 +146,7 @@
 
             <div class="p-8 lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-slate-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-slate-900 md:text-3xl dark:text-white">
                         Other Details
                     </h3>
 
@@ -164,27 +164,27 @@
             gap-12 flex flex-wrap justify-between">
 
         <nav>
-            <h5 class="text-left font-medium tracking-widest text-slate-500 uppercase title-font text-xs">
+            <h5 class="text-left font-medium tracking-widest text-neutral-500 uppercase title-font text-xs">
                 Terms & Conditions
             </h5>
 
-            <a class="my-1 block" href="/public#">
+            <a class="my-1 block" href="privacy.php">
                 Privacy Policy
                 <span class="text-sky-600 text-xs p-1">TBA</span>
             </a>
 
-            <a class="my-1 block" href="/public#">
+            <a class="my-1 block" href="terms.php">
                 Terms & Conditions
                 <span class="text-sky-600 text-xs p-1">TBA</span>
             </a>
 
-            <p class="mt-4 text-md capitalize text-slate-400">
+            <p class="mt-4 text-md capitalize text-neutral-400">
                 © Copyright 2025 NAME/COMPANY. All rights reserved
             </p>
         </nav>
 
         <nav>
-            <h5 class="text-left font-medium tracking-widest text-slate-500 uppercase title-font text-xs">
+            <h5 class="text-left font-medium tracking-widest text-neutral-500 uppercase title-font text-xs">
                 Support
             </h5>
 
@@ -201,7 +201,7 @@
 
 
         <nav>
-            <h5 class="text-left font-medium tracking-widest text-slate-500 uppercase title-font text-xs">
+            <h5 class="text-left font-medium tracking-widest text-neutral-500 uppercase title-font text-xs">
                 About
             </h5>
 
@@ -215,12 +215,12 @@
                 <span class="text-sky-600 text-xs p-1">New</span>
             </a>
 
-            <a class="my-1 block" href="#">
+            <a class="my-1 block" href="contact.php">
                 Contact Us
                 <span class="text-sky-600 text-xs p-1">New</span>
             </a>
 
-            <a href="#page-top" class="bock mt-6 text-md text-slate-400">Jump to Top</a>
+            <a href="#page-top" class="bock mt-6 text-md text-neutral-400">Jump to Top</a>
 
         </nav>
 

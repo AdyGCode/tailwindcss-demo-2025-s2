@@ -12,7 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=corben:400,700" rel="stylesheet"/>
 
     <!-- CSS File -->
-    <link href="/src/style.css" rel="stylesheet">
+    <link href="./assets/css/site.css" rel="stylesheet">
     <!-- JS Files -->
 
 </head>
@@ -83,21 +83,21 @@
         <header class="-mx-6
                      bg-stone-700 text-stone-200
                        py-6 px-4 sm:px-6 lg:px-8">
-            <h2 class="font-bold text-2xl leading-tight font-serif">
+            <h2 class="font-thin text-2xl leading-tight font-serif">
                 About
             </h2>
         </header>
 
         <section class="overflow-hidden bg-stone-50 sm:grid sm:grid-cols-2 dark:bg-stone-900">
             <header class="p-8 lg:px-16 col-span-2">
-            <h2 class="text-2xl font-bold text-stone-900 md:text-3xl dark:text-white">
+            <h2 class="text-2xl font-thin text-stone-900 md:text-3xl dark:text-white">
                 Developers
             </h2>
             </header>
 
             <div class="p-8  lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-stone-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-stone-900 md:text-3xl dark:text-white">
                         Developer 1
                     </h3>
 
@@ -110,7 +110,7 @@
 
             <div class="p-8  lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-stone-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-stone-900 md:text-3xl dark:text-white">
                         Developer 2
                     </h3>
 
@@ -127,14 +127,14 @@
 
         <section class="overflow-hidden bg-stone-50 sm:grid sm:grid-cols-2 dark:bg-stone-900">
             <header class="p-8 lg:px-16 col-span-2">
-                <h2 class="text-2xl font-bold text-stone-900 md:text-3xl dark:text-white">
+                <h2 class="text-2xl font-thin text-stone-900 md:text-3xl dark:text-white">
                     The Project
                 </h2>
             </header>
 
             <div class="p-8 lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-stone-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-stone-900 md:text-3xl dark:text-white">
                         Summary
                     </h3>
 
@@ -146,7 +146,7 @@
 
             <div class="p-8 lg:px-16">
                 <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h3 class="text-xl font-bold text-stone-900 md:text-3xl dark:text-white">
+                    <h3 class="text-xl font-thin text-stone-900 md:text-3xl dark:text-white">
                         Other Details
                     </h3>
 
